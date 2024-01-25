@@ -7,13 +7,7 @@ export const CatBox = () => {
   const increaseSmallCats = useCatStore((state) => state.increaseSmallCats);
   const summary = useCatStore((state) => state.summary);
 
-  // const {
-  //   cats: { bigCats, smallCats },
-  //   increaseBigCats,
-  //   increaseSmallCats,
-  //   summary,
-  // } = useCatStore();
-
+  // 这里打印两遍是因为 React 在开发模式的严格模式会导致组件渲染两次，以便检测潜在的问题
   console.log(summary());
 
   return (

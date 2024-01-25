@@ -21,6 +21,8 @@ const createCatSlice: StateCreator<
     ["zustand/subscribeWithSelector", never],
     ["zustand/persist", unknown]
   ]
+
+  
 > = (set, get) => ({
   cats: {
     bigCats: 0,

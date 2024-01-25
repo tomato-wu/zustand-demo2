@@ -7,7 +7,6 @@ import {
 } from "../stores/foodStore";
 
 export const FoodBox = () => {
-  // const { fish, addOneFish, removeOneFish, removeAllFish } = useFoodStore();
 
   const fish = useFoodStore((state) => state.fish);
   // const fish = useFoodStore.getState().fish; // non-reactive

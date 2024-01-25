@@ -7,13 +7,26 @@ import {FoodBox } from "./components/FoodBox";
 function App() {
   return (
     <div className="container">
-      <h1>Zustand Tutorial</h1>
+      <h1>Zustand 例子</h1>
       <div>
+        {/* 基本使用 */}
         <CatBox />
-        {/* <BearBox /> */}
-        {/* <CatBox2 /> */}
-        {/* <CatController /> */}
-        {/* <FoodBox /> */}
+      </div>
+
+      <br />
+      {/* ================================================================================================== */}
+
+      <div>
+        <BearBox />
+        <FoodBox />
+        <br />
+      </div>
+      {/* ================================================================================================== */}
+      <br />
+
+      <div>
+        <CatBox2 />
+        <CatController />
       </div>
     </div>
   );
